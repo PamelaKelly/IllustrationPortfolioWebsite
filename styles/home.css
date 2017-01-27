@@ -1,0 +1,97 @@
+nav {
+    margin-top: -33px;
+}
+
+body section {
+    width: 1000px;
+    height: 430px;
+    padding: 10px;
+    margin-top: 33px;
+    border: 1px solid gray;
+    
+}
+
+section div p {
+    font-family: "courier new";
+    font-size: 25pt;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin: auto;
+}
+
+section ul {
+    width: 900px;
+    list-style-type: none;
+    text-decoration: none;
+    border: none;
+    margin: auto;
+}
+
+section ul h1 {
+    width: 190px;
+    padding: 5px;
+    margin: 0px;
+    margin-top: 5px;
+    color: gray;
+    font-size: 14pt;
+    text-align: left;
+}
+section ul p {
+    width: 190px;
+    padding: 5px;
+    margin: 0px;
+    margin-left: 0px;
+    margin-top: 5px;
+    color: gray;
+    font-size: 10pt;
+    text-align: left;
+    border: 1px solid gray;
+}
+
+section ul li {
+    height: 350px;
+    margin: 10px;
+    padding: 30px;
+    display: inline-block;
+    border: 1px solid gray;
+}
+
+section ul a {
+    text-decoration: none;
+    color: white;
+}
+
+li img {
+    border-radius: 50%;
+}
+
+/*http://www.w3schools.com/css/tryit.asp?filename=trycss3_animation1*/
+.bkgr_animation {
+    width: 1000px;
+    height: 400px;
+    padding: 10px;
+    margin: auto;
+    background-image: url("../images/sliders/pamela_kelly_degree_show_2013.jpg");
+    background-repeat: no-repeat;
+    -webkit-animation-name: homepage;
+    -webkit-animation-duration: 6s;
+    animation-name: homepage;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframe homepage {
+    0% {background-image: url("../images/sliders/pamela_kelly_degree_show_2013.jpg");}
+    25% {background-image: url("../images/sliders/pamela_kelly_owl_2013.jpg");}
+    50% {background-image: url("../images/sliders/pamela_kelly_owls_by_night_2013.jpg");}
+    75% {background-image: url("../images/sliders/pamela_kelly_styling_photography_slider.jpg");}
+}
+
+@keyframes homepage {
+    0% {background-image: url("../images/sliders/pamela_kelly_degree_show_2013.jpg");}
+    25% {background-image: url("../images/sliders/pamela_kelly_owl_2013.jpg");}
+    50% {background-image: url("../images/sliders/pamela_kelly_owls_by_night_2013.jpg");}
+    75% {background-image: url("../images/sliders/pamela_kelly_styling_photography_slider.jpg");}
+}
+

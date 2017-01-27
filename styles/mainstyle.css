@@ -1,0 +1,303 @@
+
+/*text and borders*/
+h1, h2, h3, header, footer, th, ul {
+    font-family: "courier new";
+    font-size: 14pt;
+    color: grey;
+    border: 1px solid grey;
+    text-align: left;
+}
+
+h1, h2, h3 {
+    width: 980px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+/*layout*/
+
+body {
+    width: 1000px;
+    margin: auto;
+    height: auto;
+}
+
+header {
+    width: 950px;
+    height: 200px;
+}
+
+nav {
+    background-color: grey;
+    line-height: 10px;
+    padding: 10px;
+    width: 1000px;
+    position: fixed;
+}
+
+nav a {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    font-family: "courier new";
+    font-size: 14pt;
+    padding: 5px;
+}
+
+nav a:hover {
+    color: gray;
+    background-color: white;
+}
+section {
+    border: 1px solid grey;
+    width: 1000px;
+    min-height: 400px;
+    padding: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+section h1 {
+    margin: 30px;
+    width: 922px;
+}
+
+section div {
+    margin: 30px;
+}
+
+footer {
+    border: 1px solid white;
+    background-color: grey;
+    color: white;
+    font-size: 10pt;
+    clear: left;
+    width: 1000px;
+    height: 100px;
+    padding: 10px;
+    margin: auto;
+}
+
+form {
+    color: grey;
+    font-size: 16pt;
+    font-family: "courier new";
+    width: 950px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.floating-box {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 50px 10px 10px 90px;
+    border: 1px solid grey;
+    border-radius: 7px;
+}
+
+figure {
+    float: left;
+    font-size: 12pt;
+}
+
+figcaption {
+    text-align: left;
+    color: gray;
+    font: "courier new";
+    font-size: 12pt;
+}
+
+.div_text {
+    color: grey;
+    font-family: "courier new";
+    padding: 5px;
+    border: 1px solid grey;
+    margin-left: 25px;
+    width: 950px;
+    overflow: hidden;
+}
+
+table {
+    width: 1002px;
+    margin: 10px;
+    margin-left: auto;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 10pt;
+    padding: 10px;
+    font-family: "courier new";
+    text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+    width: 550px;
+    padding-left: 25px;
+    font-size: 12pt;
+    margin: auto;
+}
+
+li {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+}
+
+iframe {
+    width: 500px;
+    margin: 10px;;
+    float: left;
+}
+
+.copyright {
+    color: white;
+    font-size: 8pt;
+    float: right;
+    font-family: "courier new";
+    margin-right: 10px;
+    margin-top: 80px;
+}
+
+footer ul {
+    float: left;
+    list-style-type: none;
+    display: inline-block;
+    height: 100px;
+    margin-top: 20px;
+    position: relative;
+    bottom: 20px;
+    left: -30px;
+    border: none;
+}
+
+footer li {
+    color: white;
+    font-size: 8pt;
+    font-family: "courier new";
+    text-align: left;
+}
+
+div a {
+    color: darkslategray;
+}
+
+div a:hover {
+    color: darkorange;
+}
+ 
+/*http://www.w3schools.com/css/css3_multiple_columns.asp*/
+
+.div-column {
+    /*setting up for different browsers*/
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    -webkit-column-rule: 1px solid gray;
+    -moz-column-rule: 1px solid gray;
+    column-rule: 1px solid gray;
+    -webkit-column-width: auto;
+    -moz-column-width: auto;
+    column-width: auto;
+    padding: 10px;
+    line-height: 25px;
+    font-family: "courier-new";
+    font-size: 12pt;
+    color: grey;
+    border: 1px solid grey;
+    margin-top: 40px;
+}
+
+/*classes for portfolio thumbnails*/
+#illustration_thumb {
+    background-image: url("../images/thumbnails/pamela_kelly_illustration_botanics_2016.jpg");
+    
+}
+
+#styling_thumb {
+    background-image: url("../images/thumbnails/pamela_kelly_illustration_design_portfolio_2015.jpg");
+}
+
+#photography_thumb {
+    background-image:url("../images/thumbnails/pamela_kelly_design_portfolio_styling_photography.jpg");
+}
+
+#rds_thumb {
+    background-image: url("../images/thumbnails/pamela_kelly_owls_by_night_RDS_2013.jpg");
+}
+
+#degree_thumb {
+    background-image: url("../images/thumbnails/pamela_kelly_2013_degree_show_ncad_embroidered_mice.jpg");
+}
+
+#botanical_thumb {
+    background-image: url("../images/thumbnails/pamela_kelly_illustration_2011_botanics_orchids.jpg");
+}
+
+#owl_thumb {
+    background-image: url("../images/thumbnails/pamela_kelly_rds_illustration_2013.jpg");
+}
+
+#hare_thumb {
+    background-image: url("../images/thumbnails/pamela_kelly_degree_show_hare_embroidery.jpg");
+}
+
+#badger_thumb {
+    background-image: url("../images/thumbnails/pamela_kelly_natural_history_illustration_thumb.jpg");
+}
+
+.overlay_text {
+    color: white;
+    padding: 3px;
+    text-align: center;
+    font-size: 12pt;
+    width: 150px;
+    margin: 125px 10px 10px 20px;
+    background-color: grey;
+    border: 1px solid white;
+}
+
+/*styles for individual portfolio pages*/
+/*polaroid featured referenced from http://www.w3schools.com/css/css3_images.asp*/
+
+div.polaroid {
+    width: 550px;
+    padding: 12px;
+    background-color: white;
+    margin: auto;
+    margin-top: 5px;
+    border: 1px solid gray;
+}
+
+.polaroid-img {
+    width: 100%;
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 12pt;
+    font-family: "courier new";
+    color: gray;
+    border-top: 1px solid gray;
+}

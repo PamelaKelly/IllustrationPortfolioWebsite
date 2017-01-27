@@ -1,0 +1,51 @@
+Project Name: COMP30680 Web Application Development
+Author: Pamela Kelly
+Student Number: 16200514
+Language: HTML5 and CSS3
+License: GNU
+Contact information: pamela.kelly@ucdconnect.ie
+
+References: 
+>>>Basic techniques all sourced either from David Coyle's Lectures in COMP30680 UCD or W3Schools (www.w3schools.com)
+
+>>>For the CSS3 Animation on the homepage slider: http://www.w3schools.com/css/tryit.asp?filename=trycss3_animation1
+
+>>>CSS3 Multiple Columns for divs on bio, blog and portfolio pages: http://www.w3schools.com/css/css3_multiple_columns.asp
+
+>>>Polaroid Feature from CSS3 on Degree Show Page: polaroid featured referenced from http://www.w3schools.com/css/css3_images.asp
+
+>>>Form Reference: http://www.w3schools.com/html/html_forms.asp
+
+>>>Floating Box Reference for Portfolio Page: http://www.w3schools.com/css/tryit.asp?filename=trycss_float_elements
+
+>>>Embedding Youtube Videos: http://www.w3schools.com/html/html_youtube.asp
+
+>>>Feature section idea using list inspired by https://medialoot.com/blog/how-to-code-a-homepage-template-with-html5-and-css3/
+
+Requirements: 
+
+1.Links to my own page in first list item on home page "NCAD Degree Show Maker & The Mice, in the footer, the nav bar and the first image on the portfolio page. External links to youtube and to the Ark gallery website on home page. 
+
+2. Navigation bar on every page. 
+3. Table on bio page used for past exhibitions. 
+4. Form on contact page. 
+5. List on NCAD Degree Show page listing techniques and skills. 
+6. Embedded video on the home page. 
+7. CSS3 features used: multiple columns on home, bio and degree show pages; polaroid on ncad degree show page. HTML5 features used: semantic elements (<nav> <section> <footer>); <figure> and <figcaption> elements.
+8. CSS Positional Properties: Used to fix the navbar in place when scrolling; to position image on bio page; to position the footer. 
+9. Inline elements used: e.g. <br>; block elements used: e.g. <div>. 
+
+10. Above and Beyond. 
+
+>Really interested in using CSS3 animations to enhance the focus on visuals on my site. 
+>I'm also really interested in making a site that supports multiple browsers so I looked at using -webkit and @keyframes to do this for my CSS3 animation on the home page. Had some errors with this in the validator - detailed below. 
+>I looked at other image manipulation features in CSS3 mentioned above like <figure> and <polaroid>. 
+
+
+Notes on validation:
+I did get some errors regarding @-webkit-keyframe and -webkit-animation-name, in my CSS when I validated it with W3C. However I looked up the error and found out that it was thrown because the specifications for W3C don't ackknowledge vendor-specific prefixes, but that it should be ok to leave it as is. 
+Reference: http://stackoverflow.com/questions/22938783/css3-validation-error-for-keyframes
+
+Hope you enjoy my website, thank you! 
+
+
